@@ -1,0 +1,409 @@
+
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.556);
+    position: fixed;
+}
+
+body {
+    font-family: roboto-regular;
+    margin: 0;
+    padding: 0;
+}
+
+.bor h2{
+
+    text-align: right;
+    margin-top: -65px;
+    margin-right: 20px;
+}
+
+header {
+    background-image: url(../images/groupe-enfants-africains-pretant-attention-classe_23-2148892518.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 740px;
+    width: 100%;
+    height: 740px;
+}
+
+.solo {
+
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/a82d2bd2-0ef8-4784-a74e-316345abaf73.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+
+}
+.header-0 {
+
+    /* background-color: beige; */
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1220px 1fr;
+    row-gap: 50px;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.color-g {
+
+    background-color: #D9D9D9;
+    padding-top: 25px;
+    padding-left: 25px;
+
+}
+
+
+nav div a {
+
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 10px 0 10px;
+    font-size: 17px;
+    font-family: roboto-bold;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.barre {
+
+    margin-left: 900px;
+}
+
+.menu-bar-contenair {
+
+    padding: 5px 20px 0 20px;
+}
+
+contenair {
+
+    padding: 20px;
+
+}
+.d-grid-4 {
+
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    /* width: 100%; */
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.reseau-grid {
+
+    width: 240px;
+    height: 60px;
+    background-color:#ffff;
+    border-radius: 20px;
+ 
+}
+
+.reseau-lien1, .reseau-lien2, .reseau-lien3, .reseau-lien4 { 
+
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    position: relative;
+    top: 29px;
+    left: 10px;
+
+}
+
+.reseau-lien1 {
+    background-image: url(../icônes/Linkedin\ Logo\ -\ PNG\ Logo\ Vector\ Brand\ Downloads\ \(SVG\,\ EPS\).jfif);
+}
+
+.reseau-lien2 {
+    background-image: url(../icônes/pinterst.png);
+}
+
+.reseau-lien3 {
+    background-image: url(../icônes/wathsapp.png);
+}
+
+.reseau-lien4 {
+    background-image: url(../icônes/icons8-reddit-48.png);
+}
+header h2 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 120px;
+}
+
+.d-grid-3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.center-d {
+
+    background-color: rgba(0, 0, 0, 0.423);
+    height: 150px;
+    border-radius: 20px;
+    padding: 50px 20px 0 20px;
+    color: #ffff;
+}
+
+.det {
+
+    font-size: 55px;
+    text-align: center;
+}
+
+.d-grid-5 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:75px;
+    /* padding-top: 50px; */
+    height: 300px;
+    padding: 0 80px;
+}
+
+.img {
+
+    background-image: url(../images/1000_F_715614309_XeIlSCBm59bnMwjnOV6ulmH91VGxzYnR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.img-2 {
+    background-image: url(../images/1000_F_661806299_h8AybQXBHigBUy9yas08c799WpPvkl5a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.det-1 {
+
+    font-size: 55px;
+    text-align: center;
+}
+
+.img-3 {
+
+    background-image: url(../images/1000_F_780226514_vTLYvlfscm9ZLSqRKyTrPhF8VKBTWu9S.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.d-grid-6 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    padding: 0 80px;
+
+}
+
+.center-d-2 {
+    display: flex;
+    justify-content: center;
+}
+.center-0{
+
+    text-align: center;
+    width: 80%;
+    height: 600px;
+}
+
+.img-4 {
+
+    background-image: url(../images/study-group-african-people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.old {
+
+    width: 100%;
+    height: 700px;
+    background-color: #D9D9D9;
+    padding-top: 20px;
+}
+.input-text {
+    border-radius: 20px;
+
+}
+
+.input-text-1 {
+    width:250px;
+    height:250px;
+}
+.input-text-2 {
+    width:250px;
+    height:35px;
+}
+.footer-div {
+    width: 100%;
+    height: 480px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.footer-div a {
+    color: #fff;
+    font-family: rbt-thin;
+    font-size: 14px;
+}
+
+.container {
+    padding: 19px 25px;
+    height: 250px;
+}
+
+.footer-contain-1 h3{
+    margin-left: 10px;
+}
+
+.footer-contain-4 h3{
+    position: relative;
+    right: 52px
+}
+.button-style {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color:blue;
+    border: none;
+    margin-top: 370px;
+    margin-left: 9px;
+}
+
+.footer-contain-2, .footer-contain-3 {
+    margin-left: 40px;
+}
+
+.footer-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 90px;
+    width: 100%;
+    height: 360px;
+    text-align: top;
+}
+
+.footer-contain div ul {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.footer-contain div ul li {
+    margin-top: 5px;
+}
+
+.footer-contain-4 .reseaux-grid1 {
+    margin-top: 38px;
+}
+
+.footer-contain div h3{
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+
+.reseaux-grid1 {
+    width: 200px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+
+.reseau-1-1, .reseau-2-1, .reseau-3-1, .reseau-4-1{
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    padding: 25px;
+    position: relative;
+    top: 28px;
+}
+
+.reseau-1-1 {
+    background-image: url(../icônes/Linkedin\ Logo\ -\ PNG\ Logo\ Vector\ Brand\ Downloads\ \(SVG\,\ EPS\).jfif);
+}
+
+.reseau-2-1 {
+    background-image: url(../icônes/pinterst.png);
+}
+
+.reseau-3-1 {
+    background-image: url(../icônes/wathsapp.png);
+}
+
+.reseau-4-1 {
+    background-image: url(../icônes/icons8-reddit-48.png);
+}
+
+.appel {
+
+    width: 400px;
+    height:120px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+ul {
+    list-style: none;
+}
+
+.button-icône { 
+
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    top: 10px;
+    background-image: url(../images/send_rouge\ voleee.png);
+
+}
